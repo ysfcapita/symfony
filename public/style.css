@@ -1,0 +1,32 @@
+@font-face {
+    font-family: rubik;
+    src: url(Rubik/RubikVinyl-Regular.ttf);
+}
+.mychild {
+    background-color: #eee;
+    max-width: 400px;
+    transform: translate(-50%, -50%);
+    min-height: 500px;
+}
+
+.font{
+    font-family: rubik;
+}
+
+.navigation{
+    justify-content: flex-start!important;
+}
+
+.main {
+    padding-top: 56px;
+}
+
+.home {
+    background-color:#eee;
+    text-align:center;
+    margin:0 auto;
+    width:100%;
+    height:calc(100vh - 56px);
+    padding:20%;
+    box-sizing:border-box;
+}

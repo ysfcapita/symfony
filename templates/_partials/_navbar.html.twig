@@ -10,21 +10,25 @@
             {% if app.user %}
                 <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href={{ path('Home') }}>Home</a>
-                </li>                        
+                </li>    
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="{{ path('app_logout') }}">Sign Out</a>       
+                </li>      
+                </li>
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href={{ path('product_create') }}>Add Product</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href={{ path('product_list') }}>List Product</a>
+                </li>
                 {% else %}
                 <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href={{ path('Login') }}>login</a>
+                <a class="nav-link active" aria-current="page" href={{ path('app_login') }}>login</a>
                 </li>
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href={{ path('app_register') }}>Sign Up</a>
+          
                 {% endif %}
-                {# <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="">Sign Up</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="">Admin</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="">Sign Out</a>
-                </li> #}
             </ul>
         </div>
     </div>

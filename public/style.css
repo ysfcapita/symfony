@@ -2,6 +2,18 @@
     font-family: rubik;
     src: url(Rubik/RubikVinyl-Regular.ttf);
 }
+
+.admin {
+    font-family: rubik;
+    font-size: 80px; 
+    background-color:#eee;
+    text-align:center;
+    margin:0 auto;
+    width:100%;
+    height:calc(100vh - 56px);
+    padding:20%;
+    box-sizing:border-box;
+}
 .mychild {
     background-color: #eee;
     max-width: 400px;
@@ -29,4 +41,18 @@
     height:calc(100vh - 56px);
     padding:20%;
     box-sizing:border-box;
+}
+
+.t{
+    text-align: end;
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    background-color: #eee;
+}
+
+html, body{
+    height: 100%;
 }
